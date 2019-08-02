@@ -35,3 +35,4 @@ error if they don't have any '1' in the same position. Example: input
 strings); input "0011" and "0001" output 3 (the '1' in common is at 
 position 3 in both strings); input "0100" and "0001" output Error (the 
 two strings do not have a '1' in the same position)
+
