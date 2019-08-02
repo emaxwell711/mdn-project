@@ -58,3 +58,6 @@ docs/_build/
 target/
 
 \.rfft_function_test_mod\.py\.swp
+
+# vim swap files
+*.swp
