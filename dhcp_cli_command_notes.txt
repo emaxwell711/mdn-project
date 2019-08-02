@@ -1,0 +1,14 @@
+sudo apt install isc-dhcp-server
+vim /etc/dhcp/dhcpd
+  subnet 192.168.42.0 netmask 255.255.255.0 {
+    range 192.168.42.1 192.168.42.253;
+  }
+sudo systemctl restart isc-dhcp-server.service
+sudo chmod ugo+w /var/lib/dhcp/dhcpd.leases 
+sudo dhcpd -4 enp0s8
+
+
+
+raspberry pi:
+sudo dhclient -v eth0
+

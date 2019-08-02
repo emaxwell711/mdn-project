@@ -1,0 +1,5 @@
+sudo nano /etc/dhcpcd.conf
+
+sudo nano /etc/hostname
+sudo nano /etc/hosts
+
